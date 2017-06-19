@@ -35,3 +35,26 @@ It will print following lines:
 {"username":"xyz","password":"xyz"}
   --> POST /api/login 200 9ms 16b
 ```
+
+## Docker
+
+You can dockerize application with following steps:
+
+Build image:
+```
+docker build -t <your username>/http-post-log .
+```
+
+Start container:
+```
+docker run -p 8080:8080 -d <your username>/http-post-log
+```
+
+Watch for application logs:
+```
+# Get container ID
+$ docker ps
+
+# Print app output
+$ docker logs <container id>
+```
