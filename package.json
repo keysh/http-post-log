@@ -1,0 +1,35 @@
+{
+  "name": "http-post-log",
+  "description": "Parse and log messages sent via http post method.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "homepage": "https://github.com/keysh/http-post-log#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keysh/http-post-log.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keysh/http-post-log/issues"
+  },
+  "author": {
+    "name": "Jakub Leško",
+    "email": "jakub.lesko@protonmail.com",
+    "url": "https://jakublesko.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "http",
+    "post",
+    "koa",
+    "testing"
+  ],
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "koa": "^2.2.0",
+    "koa-body": "^2.1.0",
+    "koa-logger": "^3.0.0"
+  }
+}
